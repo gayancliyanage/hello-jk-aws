@@ -1,6 +1,6 @@
 #!/bin/sh
 
-  cd ~/hello-jk-aws
+  cd /home/ubuntu/hello-jk-aws
   git pull
   npm install --production
   forever restartall
