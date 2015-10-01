@@ -1,0 +1,9 @@
+#!/bin/sh
+
+<<EOF
+  cd ~/hello-jk-aws
+  git pull
+  npm install --production
+  forever restartall
+  exit
+EOF
